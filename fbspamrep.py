@@ -16,23 +16,22 @@ slaw0= '''
 ________________________________________________________________________________
 '''
 print(Fore.RED+ slaw0)
-'''
+print('''
 ███████╗██████╗     ██████╗ ███████╗██████╗  ██████╗ ██████╗ ████████╗    
 ██╔════╝██╔══██╗    ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝    
 █████╗  ██████╔╝    ██████╔╝█████╗  ██████╔╝██║   ██║██████╔╝   ██║       
 ██╔══╝  ██╔══██╗    ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║██╔══██╗   ██║       
 ██║     ██████╔╝    ██║  ██║███████╗██║     ╚██████╔╝██║  ██║   ██║       
 ╚═╝     ╚═════╝     ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝       
+''')
+print(Fore.RED + slaw0)
 
-print(Fore.RED + slaw)
-
-slaw2 =
-'
+slaw2 = '''
 * * * * * * * * * * * * * * * * * * * *
 
-                * [#]  welcome to facebook report tool  *
+                * [#] Welcome to facebook report tool   *
                 *                                       *
-                * [#]  created : The Eye of the Cyber World   * 
+                * [#] created : Eye of the Cyber World  * 
                 *                                       *
                 * [#] try to use it for ethical purpose *
                 * * * * * * * * * * * * * * * * * * * * *
@@ -245,4 +244,4 @@ data = {
 whisper=requests.post(url,data=data)
 print('[+]report done....')
 
-data = {
+data = {}
