@@ -1,11 +1,11 @@
 # Fbspamrep
-Powelful python2 facebook spam report tools by EOTCW_Fykcoder
+Powelful python2 facebook spam report tools by EOTCW
 
 # Installation
 $git clone https://github.com/EOTCWNEW/Fbspamrep
 
 $cd Fbspamrep
 
-$pip2 install -r requirements.txt
+$python3 -m pip install -r Requirements.txt
 
-$python2 fbspamrep.py
+$python fbspamrep.py
